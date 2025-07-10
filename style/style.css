@@ -50,3 +50,20 @@ header {
   align-items: center;
   padding: 50px 150px 50px 150px;
 }
+.banner-head {
+  color: rgb(37, 36, 50);
+  font-family: Raleway;
+  font-size: 65px;
+  font-weight: 700;
+  line-height: 76px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 158px;
+  margin-bottom:37px;
+}
+.banner{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
