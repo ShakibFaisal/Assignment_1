@@ -317,3 +317,11 @@ footer {
   display: flex;
   justify-content: space-between;
 }
+.btn:hover{
+  color:black;
+  zoom:110%;
+  background-color: yellowgreen;
+  transform: zoom 110%;
+  transition:2s;
+  cursor: pointer;
+}
