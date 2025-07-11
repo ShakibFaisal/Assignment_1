@@ -218,24 +218,62 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin:130px 150px 130px 150px;
+  margin: 130px 150px 130px 150px;
 }
 .focus-title {
   color: rgb(0, 0, 0);
   font-family: Raleway;
   font-size: 50px;
   font-weight: 700;
-  margin-bottom:20px;
-
+  margin-bottom: 20px;
 }
 .focus-p {
   color: rgba(0, 0, 0, 0.5);
   font-family: Inter;
   font-size: 16px;
   font-weight: 400;
-  margin-bottom:20px;
+  margin-bottom: 20px;
 }
-.focus-img{
+.focus-img {
   border-radius: 48px;
-  margin-top:20px;
+  margin-top: 20px;
+}
+.get-touch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 115px;
+  padding:100px 130px 100px 140px;
+}
+.touch-form {
+  display: flex;
+  flex-direction: column;
+  width: 497px;
+}
+.touch-title {
+  color: rgb(0, 0, 0);
+  font-family: Raleway;
+  font-size: 87px;
+  font-weight: 700;
+}
+label {
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom:5px;
+  margin-top:5px;
+}
+input {
+  padding: 20px 32px 20px 32px;
+  border: 1px solid rgb(214, 221, 237);
+  border-radius: 10px;
+}
+#textarea {
+  width: 350px;
+  height: 135px;
+  padding: 20px 32px 20px 32px;
+  border: 1px solid rgb(214, 221, 237);
+  border-radius: 10px;
+  margin-bottom: 10px;
 }
