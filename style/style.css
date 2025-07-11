@@ -243,7 +243,7 @@ header {
   justify-content: center;
   align-items: center;
   gap: 115px;
-  padding:100px 130px 100px 140px;
+  padding: 100px 130px 100px 140px;
 }
 .touch-form {
   display: flex;
@@ -261,8 +261,8 @@ label {
   font-family: Inter;
   font-size: 18px;
   font-weight: 500;
-  margin-bottom:5px;
-  margin-top:5px;
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
 input {
   padding: 20px 32px 20px 32px;
@@ -276,4 +276,44 @@ input {
   border: 1px solid rgb(214, 221, 237);
   border-radius: 10px;
   margin-bottom: 10px;
+}
+footer {
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  align-items: center;
+
+}
+.footer-sec{
+  width: 531px;
+  height: 221px;
+  margin:100px 400px 100px 400px;
+}
+.footer-logo {
+  color: rgb(78, 71, 255);
+  font-family: Inter;
+  font-size: 90px;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom:20px;
+}
+.footer-p {
+  color: rgb(137, 135, 161);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom:20px;
+}
+.footer-h7 {
+  color: rgb(137, 135, 161);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+}
+.footer-div {
+  display: flex;
+  justify-content: space-between;
 }
